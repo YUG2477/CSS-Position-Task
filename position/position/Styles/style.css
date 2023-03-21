@@ -1,0 +1,105 @@
+/* 
+.parent{
+    position: absolute;
+    height:700px;
+    width: 100%;
+    max-width:700px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+    background-color: red;
+    z-index: 0;
+}
+
+.child1{
+    position: absolute;
+    height:500px;
+    width: 100%;
+    max-width:500px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);  
+    background-color: blue;
+    z-index: 1;
+}
+
+.child2{
+    position: absolute;
+    height:300px;
+    width: 100%;
+    max-width:300px;
+    left:50%;
+    top:50%; 
+    background-color: black;   
+    z-index: 2;
+}
+
+.child3{
+    position: absolute;
+    height:200px;
+    width: 100%;
+    max-width:200px;
+    top:50%;
+    right:50%;
+    background-color: yellow;
+    z-index: 3;
+}
+
+.child4{
+    position: absolute;
+    height:100px;
+    width: 100%;
+    max-width:100px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: green;      
+    z-index: 4;
+} */
+
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;  
+}
+
+.cover{
+    position: absolute;
+    z-index: 2; 
+}
+
+.part1{
+    position: absolute;
+    /* top: 57%; */
+    top: 78px;
+    left: 638px;
+    z-index: 1;
+}
+
+.part2{
+    position: absolute;
+    top: 428px;
+    left: 647px;
+    z-index: 1;
+}
+
+.circle{
+    position: absolute;
+    top: 222px;
+    left: 1136px;
+    z-index: 3;
+}
+
+.square{
+    position: absolute;
+    top: 132px;
+    left: 656px;
+    z-index: 3;
+}
+
+.rectangle{
+    position: absolute;
+    top: 464px;
+    left: 834px;
+    z-index: 3;
+}

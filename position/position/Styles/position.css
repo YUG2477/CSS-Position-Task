@@ -1,0 +1,52 @@
+.main-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+}
+
+.design-1 {
+    position: relative;
+    right: 150%;
+    z-index: 4;
+    transform: translateY(-58%);
+}
+
+img {}
+
+.card-3 {
+    position: absolute;
+    z-index: 7;
+    top: -25%;
+    right: 137%;
+}
+
+.card-1 {
+    position: absolute;
+    left: 162%;
+    z-index: 8;
+    top: -13%;
+}
+
+.design-2 {
+    position: absolute;
+    z-index: 9;
+    right: 87%;
+    top: 142%;
+    z-index: 5;
+}
+
+.card-2 {
+    position: absolute;
+    left: -3%;
+    z-index: 8;
+    top: 152%;
+}
+.main {
+    max-width: 630px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<style>
+   .red {
+        background: red;
+        max-width: 700px;
+        height: 700px;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .blue {
+        background: blue;
+        max-width: 500px;
+        height: 500px;
+        width: 100%;
+        z-index: 2;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .black {
+        background: black;
+        max-width: 300px;
+        height: 300px;
+        width: 100%;
+        z-index: 3;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    .yellow {
+    background: yellow;
+    max-width: 200px;
+    height: 200px;
+    width: 100%;
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+    .green {
+        background: green;
+        max-width: 100px;
+        height: 100px;
+        width: 100%;
+        z-index: 5;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+
+<body>
+
+
+    <div class="container">
+        <div class="red">
+            <div class="blue">
+                <div class="black">
+                    <div class="yellow">
+                        <div class="green">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
